@@ -1,0 +1,447 @@
+@media (max-width: 1063px) {
+    nav {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: wrap;
+        margin-bottom: 10px;
+        background-color: var(--background-color);
+    }
+
+    .nav-button {
+        text-align: left;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .nav-button:hover {
+        color: var(--accent-color-1);
+    }
+    
+    .nav-button a:hover {
+        color: var(--accent-color-1);
+    }
+    
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .nav-button {
+        display: inline;
+        font-size: 1em;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+        font-family: var(--title-font);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    
+   
+    nav a {
+        text-decoration: none;
+        color: var(--text-color);
+        display: inline-block;
+        width: 100%;
+        font-family: var(--title-font);
+    }
+
+    .welcome-logout {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid var(--accent-color-1);
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .success {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        border: 1px solid blue;
+        padding: 10px;
+    }
+
+    .logout-button {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 5px;
+        margin-top: 5px;
+        color: var(--background-color);
+        background-color: var(--accent-color-1);
+        width: 75px;
+        text-align: center;
+    }
+
+    .greeting {
+        display: inline;
+        font-size: 1.1em;
+        margin: 0 auto;
+        padding-right: 5%;
+    }
+
+    header {
+        background-color: var(--text-color);
+        color: var(--background-color);
+        font-family: var(--title-font);
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 730px) {
+
+    aside {
+        background-color: var(--text-color);
+        color: var(--background-color);
+        font-family: var(--body-font);
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .focus {
+        width: 100%;
+        font-size: 1em;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    
+    img {
+        max-height: 300px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+       
+    body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        overflow: scroll;
+    }
+    
+    .active {
+        background-color: var(--background-color);
+    }
+    
+    .home-active {
+        color: var(--accent-color-1);
+    }
+    
+    h1 {
+        font-family: var(--title-font);
+        color: var(--background-color);
+    }
+    
+    h2 {
+        font-family: var(--title-font);
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.5em;
+        padding: 5px;
+        max-width: 95%;
+    }
+    
+    p {
+        font-family: var(--body-font)
+    }
+    
+    .about {
+        text-align: justify;
+    }
+    
+    .about a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    
+    .about a:hover {
+        text-decoration: none;
+        color: var(--accent-color-1);
+    }
+    
+    .about p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+       
+    .front-page {
+        width: 95%;
+        padding: 0;
+    }
+    
+    .front-page p {
+        font-size: 1.1em;
+        padding-top: 10px;
+    }
+    
+    aside {
+        background-color: var(--text-color);
+        color: var(--background-color);
+        font-family: var(--body-font);
+        display: block;
+        width: 95%;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    aside a {
+        text-decoration: none;
+        color: var(--background-color);
+    }
+    
+    aside a:hover {
+        color: var(--accent-color-1);
+    }
+    
+    aside .book-cover img {
+        margin: 20px auto;
+        display: block;
+    }
+    
+    ul {
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .photo {
+        max-width: 30%;
+    }
+    
+    img {
+        max-width: 90%;
+        height: auto;
+        margin: 5px auto;
+    }
+    
+    footer {
+        font-family: var(--title-font);
+        display: block;
+        border-top: 5px solid var(--text-color);
+        border-bottom: 5px solid var(--text-color);
+        margin-top: 10px;
+        font-weight: bold;
+        /* position: fixed;
+        bottom: 0; */
+        width: 100%;
+    }
+    
+    footer ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    footer a:hover {
+        color: var(--accent-color-1);
+    }
+    
+    footer li {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    
+    #flag {
+        max-height: 150px;
+        width: auto;
+        display: block;
+    }
+    
+    .book-cover-flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .book-cover img {
+        height: 300px;
+        width: auto;
+        margin: 10px;
+        border: 2px solid var(--background-color);
+    }
+    
+    .book-cover img:hover {
+        opacity: .5;
+    }
+    
+    .book-info {
+        font-size: 1.5em;
+        margin: 5px;
+        display: block;
+        max-width: 95%;
+    }
+    
+    .book-info p {
+        padding: 5px 0px;
+    }
+    
+    .book-info a {
+        color: var(--text-color);
+    }
+    
+    .book-info a:hover {
+        color: var(--accent-color-1);
+    }
+    
+    .book-view-cover img {
+        float: left;
+        height: 300px;
+        width: auto;
+    }
+    
+    .info-type {
+        font-weight: bold;
+        color: var(--accent-color-1);
+    }
+    
+    form {
+        max-width: 95%;
+        margin: 20px auto;
+    }
+    fieldset {
+        padding: 10px;
+        border: 3px solid var(--accent-color-1);
+    }
+    label {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-family: var(--title-font);
+        font-weight: bold;
+        font-size: 1.2em;
+        color: var(--accent-color-1);
+    }
+    
+    input[type=text], input[type=email], input[type=number], input[type=password], input[type=tel] {
+        width: 50%;
+        margin-bottom: 10px;
+        padding: 3px;
+        border-radius: 5px;
+    }
+       
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    form ul {
+        margin-left: 20px;
+        list-style-type: none;
+        margin-bottom: 10px;
+        font-family: var(--body-font)
+    }
+    
+    .box {
+        width: 400px;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    
+    .error {
+        display: block;
+        color: var(--accent-color-1);
+        font-family: var(--body-font);
+        font-weight: bold;
+    }
+    
+    .reset a {
+        color: var(--text-color);
+        display: block;
+        padding-top: 5px;
+    }
+    
+    .error {
+        color: red;
+    }
+    
+    .daily {
+        border: 2px solid var(--text-color);
+        border-radius: 3px;
+        max-width: 95%;
+    }
+    
+    .Sunday {
+        color: #6D2E46;
+    }
+    
+    .Monday {
+        color: #002400;
+    }
+    
+    .Tuesday {
+        color: #1982C4;
+    }
+    
+    .Wednesday {
+        color: #E0A500;
+    }
+    
+    .Thursday {
+        color: #23395B;
+    }
+    
+    .Friday {
+        color: #6969B3;
+    }
+    
+    .Saturday {
+        color: #5F7481;
+    }
+    
+    .map {
+        width: 50%;
+    }
+    
+    .map img {
+        max-height: 400px;
+        width: auto;
+        display: block;
+        float: right;
+    }
+    
+    .map-name {
+        font-family: var(--title-font);
+        margin-top: 10px;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    
+    .map-description {
+        max-width: 50%;
+        padding-left: 20px;
+    }
+    
+    .centered {
+        margin: 0 auto;
+    }
+
+
+}
